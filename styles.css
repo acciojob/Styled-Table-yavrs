@@ -1,1 +1,27 @@
 /* your code */
+     table{
+          width: 100%;
+          
+            text-align:left;
+ border-collapse: separate; /* Important: allows border-radius to work */
+    border-spacing: 0;         /* Removes gaps between cells */
+  
+   
+   
+    border-radius: 5px;       /* Curves the table corners */
+    overflow: hidden;
+
+        }
+        th{
+            background-color: rgb(63, 63, 236);
+            color: #fff;
+            padding: 8px;
+        }
+        tr:nth-child(odd){
+            background-color: rgb(145, 140, 140);
+			
+        }
+        td{
+             padding: 8px;
+			
+        }
